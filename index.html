@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Shirel Mora | Portafolio Profesional</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">SM</h2>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Hola, soy <span>Shirel Mora</span></h1>
+            <p class="fade-in delay">Desarrolladora | Investigadora | Innovadora</p>
+            <button onclick="scrollToSection('proyectos')">Ver Proyectos</button>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy estudiante universitaria apasionada por la tecnología, investigación y desarrollo
+            de soluciones innovadoras. Me especializo en proyectos tecnológicos con enfoque social.
+        </p>
+    </section>
+
+    <section id="proyectos" class="section">
+        <h2>Proyectos</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Sistema Inteligente de Bibliotecas</h3>
+                <p>Aplicación con IA para clasificación automática de libros.</p>
+            </div>
+
+            <div class="card">
+                <h3>Ciudad Sostenible</h3>
+                <p>Investigación sobre techos verdes para reducir temperatura urbana.</p>
+            </div>
+
+            <div class="card">
+                <h3>Salud Mental Juvenil</h3>
+                <p>Plataforma web que integra ejercicio físico y bienestar emocional.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>Email: shirel@email.com</p>
+        <button onclick="mostrarMensaje()">Enviar Mensaje</button>
+        <p id="mensaje"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Shirel Mora - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

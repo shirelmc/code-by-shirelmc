@@ -101,7 +101,7 @@ button:hover {
     transform: translateY(-10px);
 }
 
-/* ANIMACIONES */
+/*Animation*/
 .fade-in {
     opacity: 0;
     animation: aparecer 1.5s forwards;
